@@ -1,0 +1,21 @@
+header {
+    background-color: black;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
